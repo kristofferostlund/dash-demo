@@ -1,4 +1,4 @@
-# dash-frontend
+# dash-demo
 
 ## Getting started
 
