@@ -1,6 +1,6 @@
 (function (root) {
   const views = [
-    document.querySelector('#dog'),
+    document.querySelector('#intro'),
     document.querySelector('#dashboard'),
     document.querySelector('#forecast'),
     document.querySelector('#sales'),
