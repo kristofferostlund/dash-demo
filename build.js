@@ -13,3 +13,5 @@ shell.exec(style);
 shell.exec(js);
 shell.cp(html.i, html.o);
 shell.cp('-R', assets.i, assets.o);
+
+process.exit();
