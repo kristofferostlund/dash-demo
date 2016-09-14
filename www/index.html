@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dash</title>
+  <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+  <nav class="menu">
+    <img src="assets/dash.png"
+      alt="dash logo" class="logo" />
+    <ul>
+      <li class="menu-item active" data-item="1">Landing page</li>
+      <li class="menu-item" data-item="2">Dashboard</li>
+      <li class="menu-item" data-item="3">Forecast</li>
+      <li class="menu-item" data-item="4">Sales</li>
+      <li class="menu-item" data-item="5">Events</li>
+      <li class="menu-item" data-item="6">Good news</li>
+      <li class="menu-item" data-item="7">Classification</li>
+    </ul>
+    <!--   <div class="logout">Log out</div> -->
+  </nav>
+
+  <main class="content">
+    <div class="page-ish" id="dog">
+      <img src="https://images.unsplash.com/photo-1473628121395-7fe8cafb5639?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=cae6fefaa5bec3cbf16132a217eab00c"
+        alt="" />
+    </div>
+
+    <!--   <div id="dog"></div> -->
+
+    <iframe class="page-ish" id="dashboard" width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiMjJkZDhkZTMtMDQ0Yy00MGVjLTgzZTEtYjExMzliYzFlZTJlIiwidCI6ImVhNWFmODRkLTE1YWYtNDJiOC04ZmJjLTRkMWE4ZDViMmJkOCIsImMiOjh9"
+      frameborder="0" allowFullScreen="false"></iframe>
+
+    <iframe class="page-ish" id="forecast" width="100%" height="100%" src="http://forecast.klarify.se/#/" frameborder="0" allowFullScreen="false"></iframe>
+
+    <iframe class="page-ish" id="sales" width="100%" height="100%" src="http://sales.klarify.se/#/" frameborder="0" allowFullScreen="false"></iframe>
+
+    <iframe class="page-ish" id="events" width="100%" height="100%" src="http://events.klarify.se/#/" frameborder="0" allowFullScreen="false"></iframe>
+
+    <iframe class="page-ish" id="good-news" width="100%" height="100%" src="http://news.klarify.se/#/" frameborder="0" allowFullScreen="false"></iframe>
+
+    <iframe class="page-ish" id="classification" width="100%" height="100%" src="http://timeapp.klarify.se/#/set-rules" frameborder="0"
+      allowFullScreen="false"></iframe>
+  </main>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>

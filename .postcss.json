@@ -1,0 +1,9 @@
+{
+    "use": ["autoprefixer"],
+    "output-directory": "bin/style",
+    "output": "bin/style/main.css",
+    "local-plugins": true,
+    "autoprefixer": {
+        "browsers": "> 5%"
+    }
+}
