@@ -96,9 +96,11 @@ h1 {
       max-height: 100%;
       // max-width: 100%;
       width: 100%;
-      transform: translate3d(-50%, -50%, 0);
+      transform: translate3d(-50%, 0, 0);
       left: 50%;
-      top: 50%;
+      object-fit: contain;
+      // transform: translate3d(-50%, -50%, 0);
+      // top: 50%;
     }
   }
 
